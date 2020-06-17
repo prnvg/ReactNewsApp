@@ -27,10 +27,10 @@ class Select extends Component {
 
   loadOptions(input, callback) {
     try {
-      fetch("https://csci571webapp.cognitiveservices.azure.com/bing/v7.0/suggestions?q=" + input ,
+      fetch("YOUR_BING_API_URL" + input ,
         {
           headers: {
-            "Ocp-Apim-Subscription-Key": "a8518b03ffbb41f686379adbd2a1ac0d"
+            "Ocp-Apim-Subscription-Key": "YOUR_API_KEY"
           }
         }
       ).then(data => {
