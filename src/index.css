@@ -1,0 +1,123 @@
+.mynavbar {
+  background-image: linear-gradient(to right, #234571 , #4482D4) !important;
+}
+
+.react-switch {
+  margin: 0px 10px -3px 10px;
+}
+
+.react-select {
+  width: 250px;
+}
+
+.mynavbar .link {
+  color: #97B3D9;
+}
+
+.mynavbar .link:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.smallDescription {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3;
+}
+
+.search-card {
+  cursor: default !important;
+}
+
+.main-share{
+  display: inline-block;
+  vertical-align: top;
+  right: 10px;
+  cursor: pointer;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.section-world, .section-technology, .section-business, .section-sport, .section-politics, .section-other, .section-guardian, .section-nytimes {
+  border-radius: 5px;
+  float: right;
+  padding: 0px 0.3em 0px 0.3em;
+  margin: 0px 0.2em 0px 0.2em;
+}
+
+.section-world {
+  background-color: #7703fc;
+  color: #ffffff;
+}
+
+.section-technology {
+  background-color: #97bd0d;
+  color: #000000;
+}
+
+.section-business {
+  background-color: #00a6ff;
+  color: #ffffff;
+}
+
+.section-sport {
+  background-color: #fcba03;
+  color: #000000;
+}
+
+.section-politics {
+  background-color: #00a67a;
+  color: #ffffff;
+}
+
+.section-other {
+  background-color: #858585;
+  color: #ffffff;
+}
+
+.section-guardian {
+  background-color: #021e4d;
+  color: #ffffff;
+}
+
+.section-nytimes {
+  background-color: #e8e8e8;
+  color: #000000;
+}
+
+.container {
+    padding: 0px !important;
+    margin: 0px !important;
+    max-width: 100% !important;
+}
+
+@media (min-width: 1200px)
+.container {
+    max-width: 100% !important;
+}
+
+.load-main {
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+}
+
+.loadSpinner {
+  color: #4e5585;
+  margin: 0px;
+  padding: 0px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.my-toast {
+  color: black !important;
+}
