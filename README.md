@@ -3,6 +3,7 @@ A news website built on React
 
 
 ### The website can be accessed at https://react-newsapp.appspot.com/ 
+### Demo: https://youtu.be/RVl_kzSkyHM
 
 
 This is a responsive web app for reading, searching, saving, and sharing news articles from Guardian and NYTimes.
